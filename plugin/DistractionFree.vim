@@ -43,6 +43,11 @@ function! DistractionFreeWriting()
 		set guioptions-=r 								 " remove righ scrollbar
 		set laststatus=0 									 " don't show status line
 		set noruler 											 " don't show ruler
+        set nocursorline
+        set colorcolumn=0
+        set guicursor=n-c:block-Cursor-blinkon0
+        set guicursor+=v:block-vCursor-blinkon0
+        set guicursor+=i-ci:ver20-iCursor-blinkon0
     if has("gui_macvim")
       set fuoptions=background:#00f5f6f6 " bakground color
       set fullscreen 		" go to fullscreen editing mode

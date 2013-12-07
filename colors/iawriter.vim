@@ -14,6 +14,7 @@ endif
 let g:colors_name="iawriter"
 
 hi Cursor       guifg=fg   		guibg=#54D4FF 
+hi iCursor      guifg=fg   		guibg=#54D4FF 
 hi Normal       guifg=#424242 guibg=#f5f6f6          ctermfg=black    ctermbg=white
 hi DiffAdd                    guibg=#c0ffe0                           ctermbg=3
 hi DiffDelete   guifg=#ff8097 guibg=#ffe0f7          ctermfg=4        ctermbg=5
